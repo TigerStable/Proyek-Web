@@ -1,0 +1,235 @@
+html,
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2 url('https://assets.siakadcloud.com/assets/v1/img/pattern/pat_04.png') repeat;
+}
+
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2 url('https://assets.siakadcloud.com/assets/v1/img/pattern/pat_04.png') repeat;
+}
+
+.dashboard {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 95%;
+    padding: 30px;
+}
+
+.login-container {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    height: 550px;
+    max-height: fit-content;
+    max-width: 95%;
+}
+
+
+.login-left {
+    position: relative;
+    flex: 1.1;
+    overflow: hidden;
+}
+
+.login-left img.login-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+}
+
+.overlay-text h4 {
+    color: #b6ff5e;
+    margin: 0;
+}
+
+.overlay-text h2 {
+    margin: 5px 0;
+}
+
+.overlay-text h3 {
+    margin-top: 0;
+}
+
+
+.login-right {
+    flex: 0.9;
+    padding: 40px;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.login-right h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+.error {
+    background: #f8d7da;
+    color: #842029;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.password-group {
+    position: relative;
+}
+
+.password-group input {
+    width: 100%;
+    padding-right: 40px; /* beri ruang untuk ikon */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 33px;
+    cursor: pointer;
+    color: #777;
+    font-size: 18px;
+}
+
+.toggle-password:hover {
+    color: #333;
+}
+
+.required {
+    color: red;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-ggl {
+    width: 100%;
+    background-color: #fffdfd;
+    color: rgb(18, 18, 18);
+    padding: 3px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-ggl:hover {
+    background-color: #afafaf;
+}
+
+.btn {
+    width: 100%;
+    background-color: #0057ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0041cc;
+}
+
+.powered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #555;
+    margin-top: 25px;
+}
+
+.title-line {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #E0E3E7;
+}
+
+.title-login-email {
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #99A1AE;
+    background-color: #ffffff;
+    width: 165px;
+    text-align: center;
+}
+
+.forgot {
+    margin-top: 10px;
+}
+
+.forgot a {
+    text-decoration: underline;
+    color: #0057ff;
+    font-weight: bold;
+    font-size: 13px;
+}
